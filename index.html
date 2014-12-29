@@ -47,18 +47,29 @@ html , body {
 form {
 	position: relative;
 	display: inline;
-	top: 13px;
 	left: 30px;
 	}
 
 .search_bar {
 	width: 49%;
-	height: 51%;
+	height: 54%;
 	border: 1px solid blue;
 	font-size: 16px;
 	padding: 8px;
 	}
+
+.submit_button {
+	position: relative;
+	right: .5%;
+	top: 16.5%;
+	}
 	
+.sign_in {
+	position: relative;
+	float: right;
+	right: 1%;
+	top: 16.5%;
+	}
 
 #options_tools {
 	width: 100%;
@@ -106,6 +117,7 @@ form {
 <!-- ====== ENDCSS ===== -->
 </head>
 <body>
+<a href=#link></a>
 
 <div id="container">
 <div id="header">
@@ -115,7 +127,9 @@ form {
 		method="GET"
 		name="search">
 	<input class="search_bar" type="text" name="search" value="studies of memes">
+	<input class="submit_button" type="image" src="google_images/search.png" alt="Submit Form" />
 	</form>
+	<a href="link" class="sign_in"><img src="google_images/sign_in.png"></a>
 </div>
 
 <div id="options_tools">
