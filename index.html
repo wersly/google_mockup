@@ -7,6 +7,7 @@
 	content="studies, of, memes, studies of memes, google, search, page, google search page, project odin" />
 <meta name="description"
 	contents="This is a mockup of the google search results page returned upon the search, 'studies of memes,' because I think memes are really interesting, under-studied pieces of culture.This page is part of a project in my self-directed web development studies." />
+<link rel='stylesheet' type='text/css' href='scripts/style_old.css'>
 </head>
 
 <body>
@@ -20,9 +21,10 @@
 		method="GET"
 		name="search">
 	<input class="search_bar" type="text" name="search" value="studies of memes">
-	<input class="submit_button" type="image" src="google_images/search.png" alt="Submit Form" />
+	<input class="submit_button" type="image" src="scripts/google_images/search.png" alt="Submit Form" />
 	</form>
-	<a href="link" class="sign_in"><img src="google_images/sign_in.png"></a>
+	<a href="link" class="nav_button"><img src="scripts/google_images/sign_in.png"></a>
+	<a href="#link" class="nav_button settings_button"><img src="scripts/google_images/settings.png"></a>
 </div>
 
 <div id="options_tools">
@@ -35,7 +37,6 @@
 		<a href="#link"><li>More</li></a>
 		<a href="#link"><li>Search tools</li></a>
 	</ul>
-	<a href="#link" class="settings_button"><img src="google_images/settings.png"></a>
 </div>
 
 <div class="results_metadata">
@@ -119,10 +120,22 @@
 
 <div id="nav">
 	<div class="gooogle">
-	<img src="google_images/search_by_page.png">
+	<img src="scripts/google_images/search_by_page.png">
 	</div>
 	<div class="numbered_links">
-	<ul>
+		<div class='numbered_link_o'><a href="#link">1</a></div>
+		<div class='numbered_link_o'><a href="#link">2</a></div>
+		<div class='numbered_link_o'><a href="#link">3</a></div>
+		<div class='numbered_link_o'><a href="#link">4</a></div>
+		<div class='numbered_link_o'><a href="#link">5</a></div>
+		<div class='numbered_link_o'><a href="#link">6</a></div>
+		<div class='numbered_link_o'><a href="#link">7</a></div>
+		<div class='numbered_link_o'><a href="#link">8</a></div>
+		<div class='numbered_link_o'><a href="#link">9</a></div>
+		<div class='numbered_link_o double_digit'><a href="#link">10</a></div>
+
+
+	<!-- <ul>
 		<li><a href="#link">1</a></li>
 		<li><a href="#link">2</a></li>
 		<li><a href="#link">3</a></li>
@@ -133,12 +146,20 @@
 		<li><a href="#link">8</a></li>
 		<li><a href="#link">9</a></li>
 		<li><a href="#link">10</a></li>
-	</ul>
+	</ul> -->
 	</div>
 
 </div>
 
 <div id="location_services">
-
+	<div class='loc'><span>Location Unknown</span> - <a href="#link">Use precise location</a> - <a href="#link">Learn more</a></div>
+	<div class="legal">
+		<ul>
+			<li><a href="#link">Help</a></li>
+			<li><a href="#link">Send Feedback</a></li>
+			<li><a href="#link">Privacy</a></li>
+			<li><a href="#link">Terms</a></li>
+		</ul>
+	</div>
 </div>
 </div>
