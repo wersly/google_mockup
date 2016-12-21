@@ -30,7 +30,6 @@ html , body {
 	background-image: url(google_images/template.png);
 	background-position: 0 183px;
 	float: left;
-	<!-- border: 1px solid red; -->
 	}
 
 form {
@@ -56,16 +55,13 @@ form {
 .nav_button {
 	position: relative;
 	float: right;
-	/* margin-right: 1.3%; */
 	margin-right: 16px;
-	/* right: 0px; */
 	top: 16.5%;
 	}
 
 .settings_button {
     border: 1px solid #E6E6E6;
-    /* right: 90px; */
- }
+ 	}
 
 #options_tools {
 	position: relative;
@@ -140,11 +136,11 @@ form {
 
 .result a {
 	text-decoration: none;
-}
+	}
 
 .result a:hover {
 	text-decoration: underline;
-}
+	}
 
 .url {
 	color: #006621;
